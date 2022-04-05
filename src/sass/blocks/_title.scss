@@ -1,0 +1,16 @@
+.title {
+    font-weight: 400;
+    font-size: 64px;
+    color: $maincolor;
+    margin-top: 120px;
+    text-align: center;
+    &__descr {
+        margin-top: 26px;
+        font-weight: 300;
+        font-size: 16px;
+        color: $maincolor;
+        text-align: center;
+        line-height: 140%;
+        text-transform: lowercase
+    }
+}
