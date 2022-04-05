@@ -1,0 +1,17 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1437px;
+    margin: 0 auto;
+}
+
+@import 'base/variables';
+@import 'blocks/promo';
+@import 'blocks/header';
+@import 'blocks/title';
+@import 'blocks/planet';
+@import 'blocks/rocket';
