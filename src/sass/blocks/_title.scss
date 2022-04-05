@@ -1,16 +1,26 @@
-.title {
-    font-weight: 400;
-    font-size: 64px;
-    color: $maincolor;
-    margin-top: 120px;
-    text-align: center;
-    &__descr {
-        margin-top: 26px;
-        font-weight: 300;
-        font-size: 16px;
-        color: $maincolor;
-        text-align: center;
-        line-height: 140%;
-        text-transform: lowercase
-    }
-}
+        .title {
+            font-weight: 400;
+            font-size: 64px;
+            color: $maincolor;
+            padding-top: 120px;
+            text-align: center;
+            &__descr {
+                margin-top: 26px;
+                font-weight: 300;
+                font-size: 16px;
+                color: $maincolor;
+                text-align: center;
+                line-height: 140%;
+                text-transform: lowercase
+            }
+            &__falcon {
+                padding-left: 119px;
+                padding-top: 490px;
+                color: $maincolor;
+            }
+            &__character {
+                font-weight: 700;
+                font-size: 24px;
+                color: $maincolor;
+            }
+        }

@@ -1,5 +1,51 @@
 .rocket {
     height: 1718px;
-    background-color: black;
+    background-color: $blackcolor;
+    &__content {}
     /* background: url('../img/rocket_1.jpg') center (center/cover) no-repeat; */
+    &__wrapper {
+        img {
+            position: absolute;
+            width: 644px;
+            height: 1718px;
+            right: 0;
+            top: 0;
+        }
+    }
+}
+
+.characteristics {
+    position: relative;
+    display: flex;
+    &__wrap {
+        margin: 218px 0 45px 119px;
+    }
+    &__wrapper {
+        padding: 45px 0 0 120px;
+        display: flex;
+        justify-content: start;
+    }
+    &__list {
+        margin-top: 45px;
+        display: inline-block;
+        list-style: none;
+        margin-right: 130px;
+        span {
+            color: $graycolor;
+        }
+    }
+    &__item {
+        line-height: 40px;
+        font-weight: 400;
+        font-size: 18px;
+        color: $maincolor;
+    }
+    &__text {
+        max-width: 490px;
+        padding: 45px 81px 0 0;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 29px;
+        color: $maincolor;
+    }
 }

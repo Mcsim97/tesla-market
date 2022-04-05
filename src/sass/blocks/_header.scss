@@ -1,6 +1,6 @@
 .header {
     max-height: 367px;
-    background-color: black;
+    background-color: $blackcolor;
     padding: 53px 0 32px 0;
 }
 
@@ -27,10 +27,10 @@
     &__link {
         font-weight: 400;
         font-size: 12px;
-        color: #FFFFFF;
+        color: $maincolor;
         text-decoration: none;
         &:hover {
-            color: #808080;
+            color: $graycolor;
             transition: 0.5s all;
         }
     }
@@ -39,9 +39,9 @@
     }
     .right-list {
         .navbar__link {
-            color: #808080;
+            color: $graycolor;
             &:hover {
-                color: white;
+                color: $maincolor;
                 transition: 0.5s all;
             }
         }
